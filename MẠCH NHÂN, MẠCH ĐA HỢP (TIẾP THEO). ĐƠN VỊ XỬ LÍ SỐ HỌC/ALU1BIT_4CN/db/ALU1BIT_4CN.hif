@@ -1,0 +1,83 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+1040
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+ALU1BIT_4CN
+# storage
+db|ALU1BIT_4CN.(0).cnf
+db|ALU1BIT_4CN.(0).cnf
+# case_insensitive
+# source_file
+alu1bit_4cn.bdf
+11c5a13a1e3c17867ecdd1df081c03f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+FA
+# storage
+db|ALU1BIT_4CN.(1).cnf
+db|ALU1BIT_4CN.(1).cnf
+# case_insensitive
+# source_file
+fa.bdf
+4213e830e5e03fe1734f63d7add23216
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+FA:inst4
+}
+# macro_sequence
+
+# end
+# entity
+MUX4_1_1BIT
+# storage
+db|ALU1BIT_4CN.(2).cnf
+db|ALU1BIT_4CN.(2).cnf
+# case_insensitive
+# source_file
+mux4_1_1bit.bdf
+c4d7461832e2113f940b389effbf61
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MUX4_1_1BIT:inst
+}
+# macro_sequence
+
+# end
+# complete
+

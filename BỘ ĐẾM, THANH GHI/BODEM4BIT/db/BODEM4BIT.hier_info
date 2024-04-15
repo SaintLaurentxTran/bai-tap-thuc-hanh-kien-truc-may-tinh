@@ -1,0 +1,17 @@
+|BODEM4BIT
+Q[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Clear => inst2.ACLR
+Clear => inst1.ACLR
+Clear => inst3.ACLR
+Clear => inst.ACLR
+Enable => inst7.IN0
+Enable => inst~0.IN0
+Clock => inst2.CLK
+Clock => inst1.CLK
+Clock => inst3.CLK
+Clock => inst.CLK
+
+

@@ -1,0 +1,85 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+1040
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+CONG4BIT
+# storage
+db|CONG4BIT.(0).cnf
+db|CONG4BIT.(0).cnf
+# case_insensitive
+# source_file
+cong4bit.bdf
+368138097fb728239368d8a53f8ff58
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+FA
+# storage
+db|CONG4BIT.(1).cnf
+db|CONG4BIT.(1).cnf
+# case_insensitive
+# source_file
+fa.bdf
+4213e830e5e03fe1734f63d7add23216
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+FA:inst
+FA:inst1
+FA:inst2
+}
+# macro_sequence
+
+# end
+# entity
+HA
+# storage
+db|CONG4BIT.(2).cnf
+db|CONG4BIT.(2).cnf
+# case_insensitive
+# source_file
+ha.bdf
+85ae262eaf6ca0269992f7deae5f4e0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+HA:inst3
+}
+# macro_sequence
+
+# end
+# complete
+
